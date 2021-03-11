@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+# coding: utf-8
+"""
+Object Detection (On Image) From TF2 Saved Model
+=====================================
+"""
+
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'    # Suppress TensorFlow logging (1)
+import pathlib
+import tensorflow as tf
+import cv2
+import argparse
+import glob
